@@ -17,7 +17,6 @@ function useItem(x, y, z, item, block)
 		saveItemId = block;
      saveItemData = Level.getData (x, y, z);
 		print(" Item ID : "+saveItemId+" : "+saveItemData+" "); 
-//use the variable, not "block"
 		preventDefault();
 	}
 	
